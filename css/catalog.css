@@ -1,0 +1,189 @@
+.box-catalog{
+    display:flex;
+            flex-direction: column;
+            border-image: url(https://tcrf.net/images/6/64/Oldcatalog.png) 19 round;
+            background-color: #EEEEEE;
+            border-width: 19px;
+            border-style: solid;
+            border-radius: 30px;
+            padding-top:20px;
+            margin: 12px;
+            max-width: 700px;
+            min-height: 500px;
+}
+
+
+.box-list{
+    display:flex;
+            flex-direction: column;
+            border-image: url(/Catalogue-1.gif) 19 round;
+            border-width: 19px;
+            border-style:solid;
+            border-radius: 30px;
+            margin: -12px;
+            max-width: 170px;
+            margin-top: 50px;
+            min-height: 300px;
+            background-color: #d5d5d5;
+}
+
+.catalog-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Para alinear los elementos al inicio del contenedor */
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Para alinear los elementos al inicio del contenedor */
+}
+
+.editButton{
+    margin-left: 5px;
+    padding: 4px;
+    font-size: 0.875em;
+    color: #fff;
+    background-color: #e59e0f;
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.priceContainer{
+    display:flex;
+    align-items: center;
+}
+
+.editButton:hover{
+    background-color: #ffb31b;
+    cursor: pointer;
+}
+
+.priceItem {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    width: 100%;
+    padding: 8px 16px;
+    color: #000;
+    background-color: #999998;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.imagePrice{
+    margin-left: 5px;
+}
+.itemDesc{
+    font-size: 13px;
+    color: #262626;
+}
+.titleItem{
+    font-size: 12px;
+}
+
+.imageItem{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.item-info{
+    width: 250px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.box-catalog-container{
+    border:none;
+    box-shadow:initial;
+    background-color:transparent;
+}
+
+.logo_cat{
+    display:flex;justify-content:center;margin-bottom:5px;
+}
+
+.text-volter{
+    padding-top:10px;
+    text-align:center;
+    color:#262626; 
+    font-family: 'Volter';
+    display:flex;
+    gap:5px;
+    align-items:center;
+    font-size:14px;
+    flex-wrap:wrap;
+}
+
+.container .box-container{
+    display:grid;
+    grid-template-columns: repeat(5, 55px);
+    gap: 2px;
+    max-width: 280px;
+    justify-content: space-around;
+}
+
+.container .box-container .box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#a1a1a1;
+    padding:10px;
+    border-radius:5px;
+    height: 55px;
+    width: 55px;
+}
+
+
+
+.container .box-container .box, .btn:hover{
+    letter-spacing: 1px;
+    
+}
+
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#warning{
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    margin: 5px;
+    text-align: justify;
+    font-size: 14px;
+    opacity: 80%;
+    padding:10px;
+}
+
+#icon-alert{
+    fill: red;
+}
+
+
+.options-items {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: start;
+    margin-left: -18px;
+    margin-top: 2px;
+}
+
+#cat-raros, #cat-hc, #cat-all, #addItemButton, #searchInput, #cat-funky, #cat-super{
+    text-align: left;
+   width: 120px;
+    color: #000000;
+    background-color: #d5d5d5;
+    border: 1px solid rgb(165, 165, 165); /* Añade un borde negro de 1 píxel de grosor y sólido */
+}
+
+
+#cat-hc:hover, #cat-raros:hover, #cat-all:hover, #addItemButton:hover, #cat-funky, #cat-super{
+        cursor: pointer;
+}

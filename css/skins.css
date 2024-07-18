@@ -1,0 +1,66 @@
+.w_skin_defaultskin {
+    width: 300px;
+    margin: 0 auto; /* Margen automático en los lados hace que el contenedor se centre */
+}
+
+.w_skin_defaultskin div.widget-content {
+    background: url(https://habbonation.net/skins/Skin_HabboHomes_btmR.png) no-repeat bottom right;
+    display: flex;
+    flex-grow: 1; 
+    padding: 4px 10px 19px 4px;
+    color: #000;
+}
+
+.w_skin_defaultskin div.widget-body {
+  
+    background: url(https://habbonation.net/skins/Skin_HabboHomes_btmL.png) no-repeat bottom left;
+    padding-left: 14px;
+    flex-grow: 1;
+   
+}
+
+.w_skin_defaultskin div.widget-headline {
+    background: url(https://habbonation.net/skins/Skin_HabboHomes_topRh.png) no-repeat top right;
+    flex-grow: 1;
+    height: 41px;
+   
+}
+
+.w_skin_defaultskin div.widget-corner {
+    background: url(https://habbonation.net/skins/Skin_HabboHomes_topLh.png) no-repeat top left;
+    padding-left: 41px;
+    flex-grow: 1;
+}
+
+.w_skin_defaultskin div.widget-headline h3 {
+    text-align: left;
+    font-size: x-small;
+    font-weight: normal;
+    color: white;
+    vertical-align: bottom;
+    position: relative;
+    padding-top: 10px;
+    left: -30px;
+}
+
+
+.birthday, .motto-user{
+    font-size: 12px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.name{
+    text-decoration: underline;
+    font-weight:bold;
+    font-size: 12px;
+    color: #000;
+}
+
+.widget-content{
+    display: grid;
+   
+}
+
+
